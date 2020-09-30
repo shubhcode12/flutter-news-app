@@ -23,7 +23,7 @@ class ArticleCardItem extends StatelessWidget {
       onTap: () => onPress(id),
       onLongPress: () => onLongPress(id),
       child: Container(
-        width: 300,
+        width: 250,
         child: Card(
           elevation: 0,
           color: Colors.transparent,
