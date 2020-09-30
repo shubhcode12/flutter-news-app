@@ -82,7 +82,7 @@ class BookmarksPage extends StatelessWidget {
                               background: Container(
                                   color: Colors.red,
                                   child: Container(
-                                    padding: EdgeInsets.only(right: 20),
+                                    padding: EdgeInsets.only(right: 30),
                                     alignment: Alignment.centerRight,
                                     child: Icon(
                                       Icons.delete,
