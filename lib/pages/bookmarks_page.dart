@@ -66,7 +66,7 @@ class BookmarksPage extends StatelessWidget {
                           userProvider.bookmarks.length == 0
                       ? Container()
                       : ListView.builder(
-                          shrinkWrap: true,
+                          shrinkWrap: false,
                           primary: false,
                           itemBuilder: (_, index) {
                             var article = articlesProvider.findById(
