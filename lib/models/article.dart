@@ -10,6 +10,7 @@ class Article {
   String title;
   String htmlContent;
   String description;
+  String NewData;
   DateTime createdAt;
 
   Article({
@@ -21,6 +22,7 @@ class Article {
     @required this.id,
     @required this.htmlContent,
     @required this.description,
+    @required this.NewData,
     @required this.createdAt,
     this.tag,
   });
